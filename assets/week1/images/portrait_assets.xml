@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="portrait_assets.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BF Portrait Appear0000" x="0" y="0" width="409" height="281"/>
+	<SubTexture name="BF Portrait Appear0001" x="409" y="0" width="409" height="281"/>
+	<SubTexture name="BF Portrait Appear0002" x="818" y="0" width="409" height="281"/>
+	<SubTexture name="BF Portrait Appear0003" x="1227" y="0" width="409" height="281"/>
+	<SubTexture name="BF Portrait Appear0004" x="1636" y="0" width="409" height="281"/>
+	<SubTexture name="BF Portrait Appear0005" x="1636" y="0" width="409" height="281"/>
+	<SubTexture name="BF Portrait Appear0006" x="1636" y="0" width="409" height="281"/>
+	<SubTexture name="BF Portrait Appear0007" x="1636" y="0" width="409" height="281"/>
+	<SubTexture name="BF Portrait Appear0008" x="1636" y="0" width="409" height="281"/>
+	<SubTexture name="BF Portrait Appear0009" x="1636" y="0" width="409" height="281"/>
+	<SubTexture name="Ding Portrait Appear0000" x="0" y="281" width="387" height="313"/>
+	<SubTexture name="Ding Portrait Appear0001" x="387" y="281" width="387" height="313"/>
+	<SubTexture name="Ding Portrait Appear0002" x="774" y="281" width="387" height="313"/>
+	<SubTexture name="Ding Portrait Appear0003" x="1161" y="281" width="387" height="313"/>
+	<SubTexture name="Ding Portrait Appear0004" x="1548" y="281" width="387" height="313"/>
+	<SubTexture name="Ding Portrait Appear0005" x="1548" y="281" width="387" height="313"/>
+	<SubTexture name="Ding Portrait Appear0006" x="1548" y="281" width="387" height="313"/>
+	<SubTexture name="Ding Portrait Appear0007" x="1548" y="281" width="387" height="313"/>
+	<SubTexture name="Ding Portrait Appear0008" x="1548" y="281" width="387" height="313"/>
+	<SubTexture name="Ding Portrait Appear0009" x="1548" y="281" width="387" height="313"/>
+	<SubTexture name="Ding Portrait Confused Appear0000" x="0" y="281" width="387" height="313"/>
+	<SubTexture name="Ding Portrait Confused Appear0001" x="0" y="594" width="387" height="313"/>
+	<SubTexture name="Ding Portrait Confused Appear0002" x="387" y="594" width="387" height="313"/>
+	<SubTexture name="Ding Portrait Confused Appear0003" x="774" y="594" width="387" height="313"/>
+	<SubTexture name="Ding Portrait Confused Appear0004" x="1161" y="594" width="387" height="313"/>
+	<SubTexture name="Ding Portrait Confused Appear0005" x="1161" y="594" width="387" height="313"/>
+	<SubTexture name="Ding Portrait Confused Appear0006" x="1161" y="594" width="387" height="313"/>
+	<SubTexture name="Ding Portrait Confused Appear0007" x="1161" y="594" width="387" height="313"/>
+	<SubTexture name="Ding Portrait Confused Appear0008" x="1161" y="594" width="387" height="313"/>
+	<SubTexture name="Ding Portrait Confused Appear0009" x="1161" y="594" width="387" height="313"/>
+</TextureAtlas>
