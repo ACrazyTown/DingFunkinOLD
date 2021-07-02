@@ -1,6 +1,8 @@
 package;
 
+#if desktop
 import webm.WebmPlayer;
+#end
 import openfl.display.BlendMode;
 import openfl.text.TextFormat;
 import openfl.display.Application;
