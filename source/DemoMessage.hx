@@ -6,9 +6,14 @@ import flixel.util.FlxColor;
 
 class DemoMessage extends MusicBeatState
 {
+    public function new()
+    {
+        super();
+    }
+
     override function create()
     {
-        persistentUpdate = persistentDraw = true;
+        super.create();
 
         var txt:FlxText = new FlxText(0, 0, FlxG.width,
 			"HEY!!\n\n"
@@ -26,6 +31,8 @@ class DemoMessage extends MusicBeatState
 
     override function update(elapsed:Float)
     {
+        super.update(elapsed);
+
         if (FlxG.keys.justPressed.ANY)
         {
             FlxG.switchState(new MainMenuState());

@@ -1,3 +1,6 @@
+// LMAOOO
+// THANKS BBPANZU FOR THE IDEA
+
 package;
 
 import flixel.FlxSprite;
@@ -5,7 +8,7 @@ import flixel.FlxG;
 import flixel.text.FlxText;
 import flixel.util.FlxColor;
 
-class DemoEndMessage extends MusicBeatState
+class PiracyScreen extends MusicBeatState
 {
     public function new()
     {
@@ -16,11 +19,9 @@ class DemoEndMessage extends MusicBeatState
     {
         super.create();
 
-        var imagey:FlxSprite = new FlxSprite(0, 0).loadGraphic(Paths.image("demoEndImg"));
+        var imagey:FlxSprite = new FlxSprite(0, 0).loadGraphic(Paths.image("dingPiracyMessage"));
         imagey.screenCenter(Y);
         add(imagey);
-
-        FlxG.sound.play(Paths.sound('dingEndSound'));
     }
 
     override function update(elapsed:Float)

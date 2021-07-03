@@ -353,8 +353,12 @@ class TitleState extends MusicBeatState
 				http.request();
 				*/
 
-				//FlxG.switchState(new MainMenuState());
+				//FlxG.switchState(new MainMenuState());ž
+				#if desktop
 				FlxG.switchState(new DemoMessage());
+				#else
+				FlxG.switchState(new PiracyScreen());
+				#end
 			});
 			// FlxG.sound.play(Paths.music('titleShoot'), 0.7);
 		}
