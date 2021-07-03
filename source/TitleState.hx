@@ -42,7 +42,7 @@ class TitleState extends MusicBeatState
 	var credGroup:FlxGroup;
 	var credTextShit:Alphabet;
 	var textGroup:FlxGroup;
-	var ngSpr:FlxSprite;
+	var ding:FlxSprite;
 
 	var curWacky:Array<String> = [];
 
@@ -209,6 +209,7 @@ class TitleState extends MusicBeatState
 
 		credTextShit.visible = false;
 
+		/*
 		ngSpr = new FlxSprite(0, FlxG.height * 0.52).loadGraphic(Paths.image('newgrounds_logo'));
 		add(ngSpr);
 		ngSpr.visible = false;
@@ -216,6 +217,17 @@ class TitleState extends MusicBeatState
 		ngSpr.updateHitbox();
 		ngSpr.screenCenter(X);
 		ngSpr.antialiasing = true;
+		*/
+
+		ding = new FlxSprite(0, FlxG.height * 0.52).loadGraphic(Paths.image('dingdongdirt'));
+		add(ding);
+		ding.visible = false;
+		ding.setGraphicSize(Std.int(350));
+		ding.y += 20;
+		//ding.setGraphicSize(Std.int()
+		ding.updateHitbox();
+		ding.screenCenter(X);
+		ding.antialiasing = true;
 
 		FlxTween.tween(credTextShit, {y: credTextShit.y + 20}, 2.9, {ease: FlxEase.quadInOut, type: PINGPONG});
 
@@ -479,8 +491,10 @@ class TitleState extends MusicBeatState
 				createCoolText(['based on']);
 			case 41:
 				addMoreText('dingdongdirt');
+				ding.visible = true;
 			case 46:
 				deleteCoolText();
+				ding.visible = false;
 			case 49:
 				//replace with the title .txt file thing
 				createCoolText([curWacky[0]]);
@@ -500,7 +514,7 @@ class TitleState extends MusicBeatState
 	{
 		if (!skippedIntro)
 		{
-			remove(ngSpr);
+			remove(ding);
 
 			FlxG.camera.flash(FlxColor.WHITE, 4);
 			remove(credGroup);
