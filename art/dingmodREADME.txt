@@ -14,11 +14,16 @@ enjoy the mod and thanks for downloading once again!!
 [-] Credits [-]
 
 I (A Crazy Town) did all of the coding, art/animation and music!
-Dorbellprod created the famous DingDongDirt and that's pretty much it!
 
-KadeDev's responsible for the creation of Kade Engine, the engine this mod is based on.
+Dorbellprod created the famous DingDongDirt and also voiced the game over lines,
 
-and of course the original FNF team for creating this cool and awesome game!
+DespawnedDiamond helped me with a bit of charting,
+
+KadeDev's responsible for the creation of Kade Engine, the engine this mod is based on,
+
+Rozebud composed Madness, I just edited the vocals to be DingDongDirt OMG!
+
+and of course the original FNF team for creating this cool and aweome game!
 
 [-] Links [-]
 

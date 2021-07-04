@@ -1,0 +1,11 @@
+# 1.1
+
+- Performance improvements
+- Changed Art in the Menu & Story Mode Menu
+- Chart improvements
+- ??? (don't check freeplay after beating story on hard)
+
+
+# 1.0
+
+Initial release

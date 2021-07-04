@@ -35,14 +35,28 @@ class FreeplayState extends MusicBeatState
 
 	private var iconArray:Array<HealthIcon> = [];
 
+	var debug:Bool = false;
+
 	override function create()
 	{
+		#if debug
+		debug = true;
+		#end
+
 		var initSonglist = CoolUtil.coolTextFile(Paths.txt('freeplaySonglist'));
 
 		for (i in 0...initSonglist.length)
 		{
 			var data:Array<String> = initSonglist[i].split(':');
 			songs.push(new SongMetadata(data[0], Std.parseInt(data[2]), data[1]));
+		}
+
+		// haha funny reference guys LOL
+		trace("MADNESS status: " + FlxG.save.data.beatStoryHard);
+
+		if (FlxG.save.data.beatStoryHard == true || debug)
+		{
+			songs.push(new SongMetadata("Madness", 0, "ding"));
 		}
 
 		/* 
@@ -207,6 +221,9 @@ class FreeplayState extends MusicBeatState
 			trace(poop);
 
 			PlayState.SONG = Song.loadFromJson(poop, songs[curSelected].songName.toLowerCase());
+			trace(PlayState.SONG.song.toLowerCase());
+			if (PlayState.SONG.song.toLowerCase() == 'madness')
+				PlayState.SONG.stage = 'donutshop';
 			PlayState.isStoryMode = false;
 			PlayState.storyDifficulty = curDifficulty;
 			PlayState.storyWeek = songs[curSelected].week;

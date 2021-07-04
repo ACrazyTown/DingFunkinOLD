@@ -2540,9 +2540,17 @@ class PlayState extends MusicBeatState
 
 				if (storyPlaylist.length <= 0)
 				{
-					// CHANGE THIS WITH CUSTCENE !!!
 					if (SONG.song.toLowerCase() == 'allergy')
 					{
+						if (PlayState.storyDifficulty == 2)
+						{
+							if (!FlxG.save.data.beatStoryHard)
+								FlxG.save.data.beatStoryHard = true;
+								FlxG.save.flush();
+
+							DemoEndMessage.isOnHard = true;
+						}
+
 						FlxG.switchState(new DemoEndMessage());
 					}
 

@@ -66,6 +66,9 @@ class TitleState extends MusicBeatState
 		
 		PlayerSettings.init();
 
+		if (FlxG.save.data.beatStoryHard == null)
+			FlxG.save.data.beatStoryHard = false;
+
 		#if windows
 		DiscordClient.initialize();
 
@@ -479,8 +482,7 @@ class TitleState extends MusicBeatState
 		switch (curBeat)
 		{
 			case 3:
-				createCoolText(['']);
-				addMoreText('a crazy town');
+				createCoolText(['a crazy town']);
 			case 9:
 				addMoreText('presents');
 			case 15:
