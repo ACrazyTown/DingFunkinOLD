@@ -34,7 +34,7 @@ To get video cutscenes to work, execute these commands in a command prompt/termi
 ```
 haxelib install actuate
 haxelib git extension-webm https://github.com/KadeDev/extension-webm
-lime rebuild extension-webm windows
+lime rebuild extension-webm [windows/macos/linux]
 ```
 
 And after all that, you should be able to build the game by running `lime test [windows/macos/linux]`.
