@@ -26,7 +26,7 @@ http://creativecommons.org/licenses/by/3.0/**
 [**GWebDev**](https://twitter.com/GWebDevFNF) - Video Code
 
 # Building
-**NOTE: HTML5 is NOT supported as of 1.1, if you attempt to build for HTML5 you will probably get errors because of missing files!**
+**NOTE: HTML5 is NOT supported since 1.0/1.1, if you attempt to build for HTML5 you will probably get errors because of missing files!**
 
 To build this hell of a Mod, first follow the **[Kade Engine Build Instructions](https://github.com/KadeDev/Kade-Engine/blob/stable/docs/building.md)** and install all the dependencies for Haxe and for your platform **[Windows/macOS/Linux]**.
 
