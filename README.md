@@ -1,11 +1,11 @@
 # DingDong's Funkin' | VS DingDongDirt Source Code
 
-**(THIS README IS FOR DING MOD 1.0-1.1 AND WILL BE UPDATED ONCE 2.0 IS OUT!)**
+### **THIS REPOSITORY IS FOR DING MOD 1.0/1.1, 2.0 SOURCE CODE WILL BE AVAILABLE [HERE](https://github.com/ACrazyTown/DingDongFunkin) ONCE IT RELEASES!**
 
 This is the source code for the mod mentioned above.
 It's pretty messy and shit but I don't care LOL!
 
-(If you don't care about other shit and want to build this, just scroll down or click [here](https://github.com/ACrazyTown/DingDongFunkin#building)
+(If you don't care about other shit and want to build this, just scroll down or click [here](https://github.com/ACrazyTown/DingFunkinOLD#building)
 # Credits
 
 [**A Crazy Town (me)**](https://twitter.com/ACrazyTown) - Programming, Art & Music
